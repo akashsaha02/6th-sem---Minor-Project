@@ -9,6 +9,8 @@ from sklearn.model_selection import train_test_split
 from keras.utils import normalize, to_categorical 
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Activation, Dropout, Flatten, Dense
+
+
 image_directory='dataset/'
 
 no_tumour_images=os.listdir(image_directory+ 'no/')
