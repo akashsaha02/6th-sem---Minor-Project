@@ -5,7 +5,7 @@ import numpy as np
 
 model=load_model('BrainTumor10EpochsCategorical.h5')
 
-image=cv2.imread('pred/pred6.jpg')
+image=cv2.imread('pred/pred0.jpg')
 
 img=Image.fromarray(image)
 
